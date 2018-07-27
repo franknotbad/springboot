@@ -4,11 +4,11 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import xyz.huanghongbo.controller.HelloController;
+import xyz.huanghongbo.Controller.NewUserCtrl;;
 
 public class HelloWorldControllerTest {
 	@Test
     public void testSayHello() {
-        assertEquals("Greetings from Spring Boot!",new HelloController().hello());
+        assertEquals(1,new NewUserCtrl().newUser("yiibai"));
     }
 }

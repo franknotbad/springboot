@@ -1,12 +1,10 @@
-package xyz.huanghongbo.dao;
+package xyz.huanghongbo.Dao;
 
 import org.apache.ibatis.annotations.Mapper;
-import org.springframework.stereotype.Repository;
 
-import xyz.huanghongbo.entity.NewUser;
+import xyz.huanghongbo.domain.NewUser;
 
 @Mapper
-@Repository
 public interface NewUserMapper {
 	NewUser selectUserByName(String name);
 }

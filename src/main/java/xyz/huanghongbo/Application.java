@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-@MapperScan("xyz.huanghongbo.dao")
+@MapperScan("xyz.huanghongbo.Dao")
 @SpringBootApplication
 @EnableTransactionManagement
 @ConfigurationProperties(prefix="spring.datasource")

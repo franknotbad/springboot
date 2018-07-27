@@ -1,4 +1,4 @@
-package xyz.huanghongbo.controller;
+package xyz.huanghongbo.Controller;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,7 +6,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
 import io.swagger.annotations.ApiOperation;
-import xyz.huanghongbo.entity.User;
+import xyz.huanghongbo.domain.User;
 
 @RestController
 @RequestMapping(value = "/users") // 通过这里配置使下面的映射都在/users下

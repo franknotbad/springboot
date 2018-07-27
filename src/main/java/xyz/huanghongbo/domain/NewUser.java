@@ -1,4 +1,4 @@
-package xyz.huanghongbo.entity;
+package xyz.huanghongbo.domain;
 
 public class NewUser {
 
