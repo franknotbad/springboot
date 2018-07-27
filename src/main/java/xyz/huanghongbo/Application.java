@@ -1,4 +1,5 @@
 package xyz.huanghongbo;
+
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,11 +11,11 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @ServletComponentScan
 @EnableTransactionManagement
-@ConfigurationProperties(prefix="spring.datasource")
+@ConfigurationProperties(prefix = "spring.datasource")
 public class Application {
 
-    public static void main(String[] args) {
-        // http://localhost:8080/
-        SpringApplication.run(Application.class, args);
-    }
+	public static void main(String[] args) {
+		// http://localhost:8080/
+		SpringApplication.run(Application.class, args);
+	}
 }
