@@ -9,6 +9,6 @@ import xyz.huanghongbo.Controller.NewUserCtrl;;
 public class HelloWorldControllerTest {
 	@Test
     public void testSayHello() {
-        assertEquals(1,new NewUserCtrl().newUser("yiibai"));
+        assertEquals(1,new NewUserCtrl().getUserByName("yiibai"));
     }
 }

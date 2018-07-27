@@ -3,7 +3,16 @@
 <mapper namespace="xyz.huanghongbo.Dao.NewUserMapper">
 
 	<select id="selectUserByName" resultType="NewUser">
-		SELECT * FROM user WHERE name = #{name}
+		SELECT * FROM user
+		WHERE name = #{name}
 	</select>
+
+	<insert id="insertUser" parameterType="NewUser">
+		insert into
+		user(name,dept,website,phone)
+		values(#{name}, #{dept},
+		#{website}, #{phone})
+	</insert>
+
 
 </mapper>
